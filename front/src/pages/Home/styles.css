@@ -1,0 +1,87 @@
+.container_home {
+  display: flex;
+  background-color: #f8f8f9;
+}
+
+.main_home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100vw - 108px);
+  padding: 30px 32px 0px 32px;
+
+}
+
+.container-section-top {
+  padding: 20px 0px 14px, 0px;
+}
+
+.container_charges-resume {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+  margin-top: 16px;
+}
+
+.container_clients-resume {
+  display: flex;
+  width: 1227px;
+  flex-wrap: wrap;
+  gap: 36px;
+  margin-top: 32px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.charges_card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 360px;
+  height: 111px;
+  border-radius: 30px;
+  margin-bottom: 24px;
+
+}
+
+.charges-title_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.charges_card h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #3f3f55;
+}
+
+.charges_card span {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #3f3f55;
+}
+
+.charges--paid {
+  background-color: #eef7f7;
+}
+
+.charges--overdue {
+  background-color: #ffefef;
+}
+
+.charges--future {
+  background-color: #fcf6dc;
+}
+
+.header-table {
+  width: 360px;
+  height: 58px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+}

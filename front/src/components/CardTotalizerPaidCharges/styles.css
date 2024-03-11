@@ -1,0 +1,37 @@
+.container-card-totalizer {
+    width: 350px;
+    height: 110px;
+    padding: 23px 40px;
+    border-radius: 30px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container-card-totalizer {
+    display: flex;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #3f3f55;
+}
+
+.card-totalizer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-totalizer-info-h1 {
+    font-size: 18px;
+}
+
+.card-totalizer-info-span {
+    font-size: 24px;
+}

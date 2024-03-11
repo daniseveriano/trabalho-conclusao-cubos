@@ -1,0 +1,113 @@
+.container_charges {
+    display: flex;
+    background-color: #f8f8f9;
+    height: 100vh;
+}
+
+.main_charges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100vw - 108px);
+    padding: 30px 32px 100px 32px;
+}
+
+.section_charges {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 115px);
+    margin: 24px 0px;
+}
+
+.title_section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 30px;
+    color: #3f3f55;
+}
+
+.title_section img {
+    width: 37px;
+    height: 37px;
+}
+
+.actions_section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.actions_section button {
+    border: unset;
+    cursor: pointer;
+    width: 267px;
+    height: 33px;
+    background: #da0175;
+    border-radius: 10px;
+}
+
+.actions_section button div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 4px;
+
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #f8f8f9;
+}
+
+.input-search_action {
+    position: relative;
+}
+
+.input-search_action input {
+    border: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 322.19px;
+    height: 45.74px;
+    padding: 7px 8px;
+    gap: 205px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px rgba(214, 214, 214, 0.5);
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #747488;
+}
+
+.input-search_action input:focus-visible {
+    outline: 1px solid #da0175;
+    color: #3f3f55;
+}
+
+.input-search_action img {
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 10px;
+}
+
+.success_register {
+    display: flex;
+
+
+    position: fixed;
+    right: 0;
+    bottom: 0px;
+}

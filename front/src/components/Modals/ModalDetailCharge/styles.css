@@ -1,0 +1,54 @@
+.container_modal--detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 600px;
+    height: 460px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 40px 55px;
+    color: #3F3F55;
+}
+
+.title_modal_detail {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 33.8px;
+}
+
+.container_modal--detail h4 {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px 0px 8px 0px;
+}
+
+.container_modal--detail span {
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.section_detail--top {
+    height: 50%;
+    width: 100%;
+}
+
+.section_detail--bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.detail_description {
+    width: 489px;
+}
+
+.detail_bottom--left {
+    margin-right: 146px;
+}

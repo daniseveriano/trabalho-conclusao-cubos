@@ -1,0 +1,46 @@
+.card_user {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 500px;
+    top: 24px;
+  }
+  
+  .card_user span {
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0e8750;
+  }
+  
+  .perfil_user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 48px;
+    height: 48px;
+  
+    background-color: #dedee9;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  
+  .perfil_user span {
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #0e8750;
+  }
+  
+  .card_user img {
+    cursor: pointer;
+  }
+  .name_user {
+    margin-left: 16px;
+    margin-right: 8px;
+  }
+  

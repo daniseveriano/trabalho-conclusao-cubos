@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.title_clients,
+.title_charges {
+  margin-top: 14px;
+  margin-left: 68px;
+  margin-bottom: 4px;
+
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e8750;
+}
+
+.title_home {
+  margin-left: 68px;
+  margin-bottom: 24px;
+
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  color: #343447;
+}
+
+.clients-detail{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}

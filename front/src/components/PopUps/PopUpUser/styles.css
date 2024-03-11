@@ -1,0 +1,31 @@
+.container_popup--user {
+    filter: drop-shadow(0px 4px 32px rgba(0, 0, 0, 0.2));
+    width: 92px;
+    height: 61px;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    top: 50px;
+    right: -70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.arrow-up_popup--user{
+    position: absolute;
+    top: -7px;
+    left: 11px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 8px solid white;
+}
+
+.icons_popup--user{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px
+}

@@ -1,0 +1,54 @@
+.background-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+  
+    background-color: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+  }
+  
+  .close-modal {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .title_modal {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #343447;
+  }
+  
+  .btn_modal {
+    border: unset;
+    cursor: pointer;
+    width: 231.5px;
+    height: 34px;
+    border-radius: 10px;
+  
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .btn--send {
+    background-color: #da0175;
+    color: #f8f8f9;
+  }
+  
+  .btn--cancel {
+    background-color: #f8f8f9;
+    border: 1px solid #dedee9;
+    color: #0e8750;
+  }
+  

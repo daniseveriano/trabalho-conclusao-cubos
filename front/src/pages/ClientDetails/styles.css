@@ -1,0 +1,151 @@
+.clients__charges {
+    width: 1180px;
+height: 308.53px;
+}
+.clientdetails {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+.clientdetails__title {
+    display: flex;
+    margin-top: 24px;
+}
+
+.clientdetails__title h1 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #3F3F55;
+    margin-bottom: 20px;
+}
+
+.clientdetails__data {
+    position:relative;
+    width: 100%;
+}
+
+.title__icon {
+    margin-right: 25px;
+    width: 32px;
+    height: 32px;
+}
+
+.data__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data__title h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.data__button {
+    display: flex;
+    align-items: center;
+    padding: 4px 60px;
+    background: #F8F8F9;
+    border: 1px solid #DEDEE9;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0E8750;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.data__firstline,
+.data__secondline {
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    color: #3F3F55;
+    margin-bottom: 56px;
+}
+
+.data__firstline {
+    width: 50%;
+    justify-content: space-between;
+}
+
+.data__secondline {
+    margin-bottom: 75px;
+    justify-content: space-between;
+}
+
+.data__firstline h5,
+.data__secondline h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.data__firstline p,
+.data__secondline p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.clientcharges {
+    display: flex;
+    flex-direction: column;
+    min-width: 1200px;
+    max-width: 1700px;
+    width: 100%;
+}
+
+.clientcharges__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.clientcharges__title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.charge__button {
+    display: flex;
+    padding: 4px 56px;
+    gap: 4px;
+    background: #DA0175;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #F8F8F9;
+    cursor: pointer;
+}
+
+.charge__table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container_clients{
+    height: 100vh;
+    width: 100vw;
+}
+
+.clientdetails__data{
+    width: 1180px;
+    height: 308.53px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 23px 32px 10px 32px;
+}

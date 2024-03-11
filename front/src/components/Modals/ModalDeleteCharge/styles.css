@@ -1,0 +1,52 @@
+.container_modal--delete {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 95px 0px;
+}
+
+.buttons_container--delete {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn_modal--delete {
+    border: unset;
+    cursor: pointer;
+    width: 100px;
+    height: 24px;
+    border-radius: 4px;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+.btn_cancel--del {
+    background-color: #F2D6D0;
+    color: #AE1100;
+    margin-right: 16px
+}
+
+.btn_send--del {
+    background-color: #ACD9C5;
+    color: #034A2A;
+}
+
+.warning-title {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: #CC7800;
+    align-self: center;
+    margin: 45px 0px 27px 0px;
+}
